@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "postversion": "git push origin v${npm_package_version}; npm publish; git push origin master",
-    "tsc": "tsc --declaration --project .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tsc": "tsc --declaration --project ."
   },
   "repository": {
     "type": "git",
@@ -23,7 +22,7 @@
   },
   "homepage": "https://github.com/vitaliy-hnatyk/react-18-intl",
   "devDependencies": {
-    "react-intl": "^2.8.0",
-    "typescript": "^3.4.1"
+    "react-intl": "2.4.0",
+    "typescript": "2.9.2"
   }
 }
