@@ -1,0 +1,29 @@
+{
+  "name": "react-18-intl",
+  "version": "0.1.2",
+  "description": "react-intl helper, can translate props easily",
+  "main": "index.js",
+  "scripts": {
+    "postversion": "git push origin v${npm_package_version}; npm publish; git push origin master",
+    "tsc": "tsc --declaration --project .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitaliy-hnatyk/react-18-intl.git"
+  },
+  "keywords": [
+    "react",
+    "react-intl"
+  ],
+  "author": "Vitaliy Hnatyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vitaliy-hnatyk/react-18-intl/issues"
+  },
+  "homepage": "https://github.com/vitaliy-hnatyk/react-18-intl",
+  "devDependencies": {
+    "react-intl": "^2.8.0",
+    "typescript": "^3.4.1"
+  }
+}
